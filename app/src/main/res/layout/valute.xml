@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="426dp"
+            android:layout_height="52dp"
+            android:text="@string/convert" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/valute1"
+                android:layout_width="99dp"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/pushNumber"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Spinner
+                android:id="@+id/valute2"
+                android:layout_width="91dp"
+                android:layout_height="44dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="62dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="@string/r" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="@string/button" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="course">ТЕКУЩИЙ КУРС ВАЛЮТ</string>
+    <string name="vc">ВАЛЮТНЫЙ КОНВЕРТАТОР</string>
+    <string name="convert">КОНВЕРТЕР ВАЛЮТ</string>
+    <string name="button">СКОНВЕРТИРОВАТЬ</string>
+    <string name="r">результат</string>
+    <string name="textview">История конвертаций</string>
+    <string name="button2">ИСТОРИЯ КОНВЕРТАЦИЙ</string>
+    <string name="read_db">Получить</string>
+    <string name="h">История конвертаций</string>
+
+</resources>
